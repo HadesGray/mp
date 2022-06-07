@@ -51,8 +51,8 @@ body,
 
 .github-markdown-content {
     padding: 32px !important;
-    max-width: 980px;
-    min-width: 200px;
+    max-width:50%;
+    min-width: 500px;
     margin: 0 auto;
 }
 
@@ -351,6 +351,7 @@ body,
 .github-markdown-body b,
 .github-markdown-body strong {
   font-weight: 600;
+  width: -webkit-fill-available;
 }
 
 .github-markdown-body dfn {
@@ -394,7 +395,7 @@ body,
   border-style: none;
   max-width: 100%;
   box-sizing: content-box;
-  background-color: var(--color-canvas-default);
+  /* background-color: var(--color-canvas-default); */
 }
 
 .github-markdown-body code,
@@ -1316,9 +1317,30 @@ body,
                 font-size: 14px;
                 line-height: 1.6;
             }
-        </style>
-        <style>
+</style>
+<style>
+          .png{background: rgba(175,184,193,0);opacity: 50%;}
+          .logo{margin-top: 2%;background: rgba(65, 123, 181, 0);opacity: 50%;
+            width: 25%;
+          }
+          .logo_box{
+            display: flex;
+            justify-content:flex-end
+          }
+          .title{
+            display: flex;
+            align-items: center;
+          }
+          .immg{
+            display: table-cell;
+          }
+          .immg2{
+            display: table-cell;
+          }
           .test{background-color: #24292f;}
+          .fangan3{
+            width: 50%;
+          }
           h1,h2,h3,p{color: #8b949e;}
 .task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
 </style>
@@ -1326,27 +1348,45 @@ body,
     </head>
     <body class="vscode-body vscode-light">
         <div class="github-markdown-body github-markdown-auto test">
-            <div class="github-markdown-content"><h2 id="mp运营中心拍摄方案"><strong>MP运营中心拍摄方案</strong></h2>
+            <div class="github-markdown-content"><h2 id="mp运营中心拍摄方案" class="title"><strong>MP运营中心拍摄方案</strong><p align="right" class="logo_box"><img class="logo" src="logo.png" width="15%"></p></h2>
 <h3 id="方案一"><strong>方案一</strong></h3>
 <p>室内空间拍摄+CG动画</p>
 <p>利用CG布料与植物动画，穿插出现在实拍空间
 <p>虚实结合，更好的贴合品牌调性,提升品牌高度
-<p>同时也用更艺术化的方式来展现室内空间
+<p>此方案用更艺术化的方式来展现室内空间
+<p></p>
 <p>拍摄预算：3-5万
-<p align="center"><img src="3_1.png" width="100%"></p>
-<p align="center"><img src="1.gif" width="100%"></p>
-<p align="center"><img src="2.gif" width="100%"></p>
-<p align="center"><img src="Growth.jpg" width="100%"></p>
+<p align="left"><img class="png" src="table.png" width="35%"></p>
+<p align="center" class="immg"><img src="3_1.png" width="1800px"></p>
+<p align="center" class="immg"><img src="1.gif" width="1800px"></p>
+<p align="center"><video src="" width="0%" autoplay loop></p>
+<p align="center" class="immg2"><img src="2.gif" width="1800px"></p>
+<p align="center" class="immg2"><img src="Growth.jpg" width="1800px"></p>
+
+<h3></h3>
 <hr>
 <h3 id="方案二"><strong>方案二</strong></h3>
 <p>室内空间拍摄</p>
 <p>单纯空间展示说明，阐述空间分区及功能
+<p>营造高端舒适的环境氛围，展示独特的空间风格</p>
+<p>此方案更注重于办公环境高端，时尚的表现</p>
 <p>预算：1-2万
-<p align="center"><video src="gh.mp4" width="100%" controls autoplay loop muted></p>
+<p align="left"><img class="png" src="table.png" width="35%"></p>
+<p align="center" class="immg"><video src="gh.mp4" width="100%" controls autoplay loop muted></p>
+  <p align="center"><video src="" width="0%" autoplay loop></p>
+  <p align="center" class="immg"><img src="fitness1.png" width="100%"></p>
+<p align="center" class="immg"><img src="fitness2.png" width="100%"></p>
+<p align="center" class="immg"><img src="fitness3.png" width="100%"></p>
 <hr>
-<!-- <h3 id="方案三"><strong>方案三</strong></h3>
-<p align="center"><video src="" width="50%" autoplay loop></p>
-<hr> -->
+<h3 id="方案三"><strong>方案三</strong></h3>
+<p class="fangan3">本项目设计风格偏清新明亮，时尚感强，利用少量的三维动画，体现新空间整装待发</p>
+<p align="left"><img class="png" src="table2.png" width="35%"></p>
+<p align="center" ><img src="f1.gif" width="100%"></p>
+<p align="center" ><img src="F2.gif" width="100%"></p>
+<p align="center" ><img src="F3.gif" width="100%"></p>
+<p align="center"><video src="" width="20%" autoplay loop></p>
+<hr>
+<p align="center"><img class="logo" src="logo.png" width="20%"></p>
 </div>
         </div>
         
